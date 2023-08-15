@@ -8,7 +8,7 @@ import GetStarted from './components/getStarted'
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="w-full ">
         
         <Navbar />
         <Hero />

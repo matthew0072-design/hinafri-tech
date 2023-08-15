@@ -14,27 +14,27 @@ export default function Solution(){
             </svg>
 
             <div className='flex flex-col md:items-center lg:mx-12  gap-8 px-4 md:flex-row md:justify-between md:h-[424px] '>
-                <div className='flex flex-col lg:gap-8 items-center lg:text-left lg:items-start font-heebo gap-4 md:w-[60%]   '>
+                <div data-aos="fade-right" className='flex flex-col lg:gap-8 items-center lg:text-left lg:items-start font-heebo gap-4 md:w-[60%]   '>
                     <p className='text-[#30B666] text-2xl font-bold leading-[22px] '>Patient empowerment</p>
                     <p className='lg:h-[174px] lg:w-[626px] text-[#000] text-center lg:text-left text-[1.5rem] lg:text-[50px] lg:leading-[58px] opacity-80 leading-[40px]  '>Unnecessary Hospital visits with self service and digital experiences for patients</p>
                     <p className='lg:h-[56px] lg:w-[626px] text-xl leading-7 text-center lg:text-left text-[#000] opacity-70 lg:text-2xl '>Deliver a highly-personalized, digital self-service experience to every patient without staff intervention.</p>
                     <Link href="/" className='bg-[#30B666] border rounded-ss-[22px] rounded-br-[22px] text-white font-bold text-[16px] w-full flex justify-center items-center h-[52px] gap-3 lg:w-[411px]  '>Explore the patient experience <span className="w-4 h-4 bg-white rounded-full "> <Image src="/arrowRight.png" alt="arrow right" width={300} height={300} />  </span> </Link>
                 </div>
-                <div>
+                <div data-aos="fade-left"  >
                     <Image src="/calendar.png" alt="calendar" width={300} height={300} className="md:h-[421px] md:w-[460px] lg:w-[560px]  " />
                 </div>
            
             </div>
             <div className="flex flex-col px-4 items-center p-8 gap-12" >
-                <div className="flex flex-col items-center font-heebo gap-4 ">
+                <div data-aos="fade-down" className="flex flex-col items-center font-heebo gap-4 ">
                     <p className="text-[#30B666] text-2xl font-bold leading-[22px] ">Our Partners</p>
                     <p className="text-[2rem] text-[#000] leading-[58px] text-center opacity-80 lg:h-[116px] lg:w-[1005px]  lg:text-[50px] ">Explore how other hospitals, health systems, and medical groups enjoy HinafriTech </p>
                 </div>
                 
-                <div className=' lg:w-[1017px] flex flex-col border border-[#30B666] border-opacity-25 rounded-[30px] bg-white shadow-2xl '>
+                <div data-aos="fade-right" className='w-full lg:w-[1017px] flex flex-col border border-[#30B666] border-opacity-25 rounded-[30px] bg-white shadow-2xl '>
                     
                     
-                    <div className='flex justify-between '>
+                    <div className=' flex flex-col md:flex-row justify-between w-full '>
                         
                         <div className='flex flex-col gap-6 p-8'>
                             <div className='flex'>
@@ -65,13 +65,13 @@ export default function Solution(){
                                 </p>
                                 <p className='lg:text-lg font-bold leading-9   '>patient satisfaction rate</p>
                                 <svg className='self-center' xmlns="http://www.w3.org/2000/svg" width="46" height="6" viewBox="0 0 46 6" fill="none">
-                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
-                                    <path d="M3 3H43" stroke="black" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
+                                    <path d="M3 3H43" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
                                     <defs>
                                         <linearGradient id="paint0_linear_2153_726" x1="37.7541" y1="3.49997" x2="8.2459" y2="3.49998" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#ED1818"/>
-                                        <stop offset="0.575466" stop-color="#F1C21A"/>
-                                        <stop offset="0.989583" stop-color="#1A2B66"/>
+                                        <stop stopColor="#ED1818"/>
+                                        <stop offset="0.575466" stopColor="#F1C21A"/>
+                                        <stop offset="0.989583" stopColor="#1A2B66"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -84,13 +84,13 @@ export default function Solution(){
                                 </p>
                                 <p className='lg:text-lg font-bold leading-9  '>decrease in check-in time</p>
                                 <svg className='self-center' xmlns="http://www.w3.org/2000/svg" width="46" height="6" viewBox="0 0 46 6" fill="none">
-                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
-                                    <path d="M3 3H43" stroke="black" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
+                                    <path d="M3 3H43" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
                                     <defs>
                                         <linearGradient id="paint0_linear_2153_726" x1="37.7541" y1="3.49997" x2="8.2459" y2="3.49998" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#ED1818"/>
-                                        <stop offset="0.575466" stop-color="#F1C21A"/>
-                                        <stop offset="0.989583" stop-color="#1A2B66"/>
+                                        <stop stopColor="#ED1818"/>
+                                        <stop offset="0.575466" stopColor="#F1C21A"/>
+                                        <stop offset="0.989583" stopColor="#1A2B66"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -103,13 +103,13 @@ export default function Solution(){
                                 </p>
                                 <p className='lg:text-lg font-bold leading-9  '>increase in security of records</p>
                                 <svg className='self-center' xmlns="http://www.w3.org/2000/svg" width="46" height="6" viewBox="0 0 46 6" fill="none">
-                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
-                                    <path d="M3 3H43" stroke="black" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
+                                    <path d="M3 3H43" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
                                     <defs>
                                         <linearGradient id="paint0_linear_2153_726" x1="37.7541" y1="3.49997" x2="8.2459" y2="3.49998" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#ED1818"/>
-                                        <stop offset="0.575466" stop-color="#F1C21A"/>
-                                        <stop offset="0.989583" stop-color="#1A2B66"/>
+                                        <stop stopColor="#ED1818"/>
+                                        <stop offset="0.575466" stopColor="#F1C21A"/>
+                                        <stop offset="0.989583" stopColor="#1A2B66"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -122,13 +122,13 @@ export default function Solution(){
                                 </p>
                                 <p className='lg:text-lg font-bold leading-9  '>increase pre-visit registration </p>
                                 <svg className='self-center' xmlns="http://www.w3.org/2000/svg" width="46" height="6" viewBox="0 0 46 6" fill="none">
-                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
-                                    <path d="M3 3H43" stroke="black" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
+                                    <path d="M3 3H43" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
                                     <defs>
                                         <linearGradient id="paint0_linear_2153_726" x1="37.7541" y1="3.49997" x2="8.2459" y2="3.49998" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#ED1818"/>
-                                        <stop offset="0.575466" stop-color="#F1C21A"/>
-                                        <stop offset="0.989583" stop-color="#1A2B66"/>
+                                        <stop stopColor="#ED1818"/>
+                                        <stop offset="0.575466" stopColor="#F1C21A"/>
+                                        <stop offset="0.989583" stopColor="#1A2B66"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -141,13 +141,13 @@ export default function Solution(){
                                 </p>
                                 <p className=' lg:text-lg font-bold leading-9  '>Increased patient&apos;s health and wellness monitoring </p>
                                 <svg className='self-center' xmlns="http://www.w3.org/2000/svg" width="46" height="6" viewBox="0 0 46 6" fill="none">
-                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
-                                    <path d="M3 3H43" stroke="black" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+                                    <path d="M3 3H43" stroke="url(#paint0_linear_2153_726)" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
+                                    <path d="M3 3H43" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round"/>
                                     <defs>
                                         <linearGradient id="paint0_linear_2153_726" x1="37.7541" y1="3.49997" x2="8.2459" y2="3.49998" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#ED1818"/>
-                                        <stop offset="0.575466" stop-color="#F1C21A"/>
-                                        <stop offset="0.989583" stop-color="#1A2B66"/>
+                                        <stop stopColor="#ED1818"/>
+                                        <stop offset="0.575466" stopColor="#F1C21A"/>
+                                        <stop offset="0.989583" stopColor="#1A2B66"/>
                                         </linearGradient>
                                     </defs>
                                 </svg>
