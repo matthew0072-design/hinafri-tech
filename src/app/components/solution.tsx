@@ -1,19 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Slider from 'react-slick'
+
 
 
 export default function Solution(){
 
-    let settings = {
-        
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    }
-
+    
     return(
         <main className='flex flex-col w-full relative text-[#06030B]  '>
 
