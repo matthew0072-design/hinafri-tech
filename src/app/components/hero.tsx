@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function Hero(){
 
     return(
-        <main className='bg-black w-full text-white flex flex-col gap-8 md:flex-row md:justify-around md:items-center md:gap-8 pt-8  px-4 py-8'>
-            <div data-aos="fade-right" className='flex flex-col gap-8 md:w-[480px] lg:w-[668px]  '>
+        <main className='bg-black w-full text-white  flex flex-col gap-8 md:flex-row md:justify-around md:items-center md:gap-8 pt-8   px-4  py-8'>
+            <div data-aos="fade-right" className='flex flex-col gap-8 md:w-[480px] lg:w-[668px]   '>
                 <div className='flex flex-col gap-4   '>
                     <p className='font-montserrat text-2xl tracking-[0.5px] md:text-[35px] lg:text-[50px] lg:leading-[58.5px]  md:leading-[52px] font-bold leading-9 lg:h-[234px] '>Close the gap with automation. From patient onboarding to clinical work.</p>
                     <p className='font-heebo text-lg leading-7 text-[#FFCFC] '>Enhance your healthcare delivery with automation, and maximize revenue from online appointment scheduling, patient registration and intake,  data authorization and security. </p>
