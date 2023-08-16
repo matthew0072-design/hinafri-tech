@@ -29,10 +29,10 @@ const heebo = Heebo({
     
 
 
-export const metadata: Metadata = {
-  title: 'Hinafri',
-  description: 'Landing Page for Hinafricare',
-}
+// export const metadata: Metadata = {
+//   title: 'Hinafri',
+//   description: 'Landing Page for Hinafricare',
+// }
 
 export default function RootLayout({
   children,
