@@ -1,3 +1,4 @@
+"use client"
 
 import Navbar from './components/navbar'
 import Hero from './components/hero'
@@ -7,13 +8,16 @@ import GetStarted from './components/getStarted'
 import Automation from './components/automation'
 
 
+
+
 export default function Home() {
+ 
   return (
     <main className="w-full ">
         
         <Navbar />
         <Hero />
-        {/* <Automation /> */}
+        <Automation />
         <Solution />
         <GetStarted />
         <Footer />

@@ -14,24 +14,24 @@ export default function Solution(){
             </svg>
 
             <div className='flex flex-col md:items-center lg:mx-12  gap-8 px-4 md:flex-row md:justify-between md:h-[424px] '>
-                <div data-aos="fade-right" className='flex flex-col lg:gap-8 items-center lg:text-left lg:items-start font-heebo gap-4 md:w-[60%]   '>
+                <div  className='flex flex-col lg:gap-8 items-center lg:text-left lg:items-start font-heebo gap-4 md:w-[60%]   '>
                     <p className='text-[#30B666] text-2xl font-bold leading-[22px] '>Patient empowerment</p>
                     <p className='lg:h-[174px] lg:w-[626px] text-[#000] text-center lg:text-left text-[1.5rem] lg:text-[50px] lg:leading-[58px] opacity-80 leading-[40px]  '>Unnecessary Hospital visits with self service and digital experiences for patients</p>
                     <p className='lg:h-[56px] lg:w-[626px] text-xl leading-7 text-center lg:text-left text-[#000] opacity-70 lg:text-2xl '>Deliver a highly-personalized, digital self-service experience to every patient without staff intervention.</p>
                     <Link href="/" className='bg-[#30B666] border rounded-ss-[22px] rounded-br-[22px] text-white font-bold text-[16px] w-full flex justify-center items-center h-[52px] gap-3 lg:w-[411px]  '>Explore the patient experience <span className="w-4 h-4 bg-white rounded-full "> <Image src="/arrowRight.png" alt="arrow right" width={300} height={300} />  </span> </Link>
                 </div>
-                <div data-aos="fade-left"  >
+                <div>
                     <Image src="/calendar.png" alt="calendar" width={300} height={300} className="md:h-[421px] md:w-[460px] lg:w-[560px]  " />
                 </div>
            
             </div>
             <div className="flex flex-col px-4 items-center p-8 gap-12" >
-                <div data-aos="fade-down" className="flex flex-col items-center font-heebo gap-4 ">
+                <div  className="flex flex-col items-center font-heebo gap-4 ">
                     <p className="text-[#30B666] text-2xl font-bold leading-[22px] ">Our Partners</p>
                     <p className="text-[2rem] text-[#000] leading-[58px] text-center opacity-80 lg:h-[116px] lg:w-[1005px]  lg:text-[50px] ">Explore how other hospitals, health systems, and medical groups enjoy HinafriTech </p>
                 </div>
                 
-                <div data-aos="fade-right" className='w-full lg:w-[1017px] flex flex-col border border-[#30B666] border-opacity-25 rounded-[30px] bg-white shadow-2xl '>
+                <div  className='w-full lg:w-[1017px] flex flex-col border border-[#30B666] border-opacity-25 rounded-[30px] bg-white shadow-2xl '>
                     
                     
                     <div className=' flex flex-col md:flex-row justify-between w-full '>
